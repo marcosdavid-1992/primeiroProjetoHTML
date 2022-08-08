@@ -1,0 +1,18 @@
+@charset "UTP-8";
+section#conteudo{
+    width: 1200px;
+    margin: auto;
+}
+body{
+    background-color: black;
+}
+#frame-spec {
+    background-color: black;
+    width: 400px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
+}
